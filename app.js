@@ -16,15 +16,13 @@ arrows.forEach((arrow, i) => {
       clickCounter = 0;
     }
   });
-
-  console.log(Math.floor(window.innerWidth / 270));
 });
 
 //theme
 
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
-  ".container,.movie-list-title,.navbar-container,.sidebar,.sidebar-icons,.dark-mode-toggle"
+  ".container,.movie-list-title,.navbar-container,.sidebar,.sidebar-icons,.dark-mode-toggle,.featured-content"
 );
 
 ball.addEventListener("click", () => {
