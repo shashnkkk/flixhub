@@ -272,4 +272,10 @@ body {
   .menu-container {
     display: none;
   }
+  .featured-description {
+    width: auto;
+  }
+  .movie-list-container {
+    margin: 20px;
+  }
 }
